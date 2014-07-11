@@ -1,0 +1,189 @@
+body {	
+	background: #FFFFFF;
+	margin: 0px;
+	font: bold 0.78em Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#container {
+	width: 1000px;
+	background: #FFFFFF;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	top:0;
+}
+
+/*INDEX PAGE*/
+
+#td_index_logo {
+	
+}
+
+#td_index_userinfo {
+	float: right;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+#td_index_appcontainer {
+	
+}
+
+ul#ul_index_appcontainer { 
+	margin: 0; 
+	padding: 0;
+	margin-top: 90px;
+}
+	
+ul#ul_index_appcontainer li {
+	list-style: none;	
+	display: inline;
+}
+
+ul#ul_index_appcontainer li a {
+	float:left;
+	font:0.88em  Verdana, Arial, Helvetica, 
+	sans-serif;
+	color:#636363;
+	text-align:center;
+	padding:1em  0.2em 0.2em  0;
+	text-decoration:none;
+	font-weight: bold;
+	margin: 23px;
+}
+ul#ul_index_appcontainer a:hover{
+	background:#c1c1c1;
+	color:#fff;
+	border-color:#00f;
+	cursor: pointer;
+	margin: 23px;
+}
+
+ul#ul_index_appcontainer li a p{
+
+	width: 150px;		
+}
+
+
+/*INDEX PAGE*/
+
+/*FORMS*/
+
+.form_input_data {
+	margin-top: 25px;
+}
+
+.form_input_data fieldset {
+	padding: 20px;
+    width: 960px;
+}
+
+button {
+	background: none repeat scroll 0 0 #AAAAAA;
+    border: medium double #FFFFFF;
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.form_input_data table {
+    width: 600px;
+}
+.form_input_data td {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#fieldset_registro_atendimento table{
+	width: 980px;
+}
+
+#fieldset_registro_atendimento table tr td{
+	text-align: right;
+}
+
+#fieldset_registro_atendimento table tr{
+	border: 1px solid #000;
+}
+
+.label_form_entrada {
+	display: inline-block;
+    margin: 5px;
+    text-align: right;
+    width: 190px;
+}
+
+.message {
+	background: none repeat scroll 0 0 #FFFFB1;
+    border: 1px solid #FFB84D;
+    font-weight: normal;
+    height: 29px;
+    padding-top: 12px;
+    text-align: center;
+}
+/*FORMS*/
+
+
+/*PANEL*/
+
+#div_id_next, #div_queue_next, #div_name_next {
+	
+}
+
+#div_id_next {
+	font-size: 20em;
+}
+
+#div_queue_next {
+	font-size: 5em;
+}
+
+#div_name_next {
+	font-size: 3em;
+}
+
+#td_next {
+    color: #000030;
+    text-align: center;
+    vertical-align: middle;
+    width: 65%;
+    z-index: 2;
+}
+
+#table_painel {
+    background: none repeat scroll 0 0 #DAEDF5;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.td_last_call {
+	border: 3px solid;
+    color: #000030;
+    font-size: 2.6em;
+    padding-left: 1%;
+}
+
+#td_last_call_title {
+	font-size: 2.3em;
+}
+
+/*VIDEO*/
+
+#beep {
+	height: 0px;
+	width: 0px;
+}
+
+/* #wrapper { width: 960px; margin: 0 auto; padding: 48px 0 72px; } */
+
+/* .clearfix:before, */
+/* .clearfix:after { */
+/*     content: " "; 1 */
+/*     display: table; 2 */
+/* } */
+
+/* .clearfix:after { */
+/*     clear: both; */
+/* } */
